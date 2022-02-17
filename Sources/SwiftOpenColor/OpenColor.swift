@@ -1,7 +1,7 @@
 import UIKit
 import SwiftUI
 
-enum OpenColor: String, CaseIterable {
+public enum OpenColor: String, CaseIterable {
   case gray0 = "#f8f9fa"
   case gray1 = "#f1f3f5"
   case gray2 = "#e9ecef"
@@ -145,14 +145,14 @@ enum OpenColor: String, CaseIterable {
   case orange8 = "#e8590c"
   case orange9 = "#d9480f"
 
-  var uiColor: UIColor {
+  public var uiColor: UIColor {
     hexStringToUIColor(hex: rawValue)
   }
 
   @available(iOS 15, *)
-    var color: Color {
-      .init(uiColor: uiColor)
-    }
+  public var color: Color {
+    .init(uiColor: uiColor)
+  }
 
   private func hexStringToUIColor (hex:String) -> UIColor {
     var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
