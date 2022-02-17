@@ -1,7 +1,7 @@
 import UIKit
 import SwiftUI
 
-enum OpenColor: String {
+enum OpenColor: String, CaseIterable {
   case gray0 = "#f8f9fa"
   case gray1 = "#f1f3f5"
   case gray2 = "#e9ecef"
