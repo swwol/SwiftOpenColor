@@ -2,7 +2,7 @@
 
 Swift port of https://yeun.github.io/open-color/
 
-###Installation
+### Installation
 
 **Swift Package Manager**
 
