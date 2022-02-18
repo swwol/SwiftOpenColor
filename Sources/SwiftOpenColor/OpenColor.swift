@@ -145,12 +145,12 @@ public enum OpenColor: String, CaseIterable {
   case orange8 = "e8590c"
   case orange9 = "d9480f"
 
-  var uiColor: UIColor {
+  public var uiColor: UIColor {
     UIColor(openColor: self)
   }
 
   @available(iOS 15, *)
-  var color: Color {
+  public var color: Color {
     Color(openColor: self)
   }
 }
