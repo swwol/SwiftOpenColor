@@ -10,7 +10,7 @@ Using Swift Package Manager, add it as a Swift Package in Xcode 11.0 or later, s
 
 https://github.com/swwol/SwiftOpenColor.git
 
-### How To Use
+### How To Use
 
 **Begin by importing SwiftOpenColor**
 
