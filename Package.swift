@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftOpenColor",
+    platforms: [.iOS(.v11), .macOS(.v11)],
     products: [
         .library(
             name: "SwiftOpenColor",
